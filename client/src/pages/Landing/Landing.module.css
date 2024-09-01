@@ -1,0 +1,58 @@
+.landing__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 2rem;
+    background-color: wheat;
+  }
+  
+  .landing__text {
+    width: 40%;
+  }
+  
+  .landing__text h1 {
+    font-size: 4rem;
+  }
+  
+  .landing__img {
+    width: 50%;
+    margin-left: 2rem;
+  }
+  
+  .primaryText {
+    color: #3498db;
+  }
+  
+  .btnWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .primaryBtn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .secondaryBtn {
+    background-color: #f7f7f7;
+    color: #3498db;
+    border: 1px solid #3498db;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .primaryBtn:hover {
+    background-color: #2ecc71;
+  }
+  
+  .secondaryBtn:hover {
+    background-color: #e74c3c;
+  }
